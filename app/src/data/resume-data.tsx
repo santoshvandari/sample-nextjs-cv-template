@@ -1,185 +1,135 @@
 import {
- Logo
+  Logo
 } from "../images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "../components/icons";
 
 export const RESUME_DATA = {
-  name: "Your Name",
-  initials: "YN",
-  location: " Lorem Ipsum, DOL",
-  locationLink: "https://www.google.com/maps/",
+  name: "Santosh Bhandari",
+  initials: "SB",
+  location: "Nepal",
+  locationLink: "https://www.google.com/maps/place/Nepal",
   about:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "Web and app developer with experience in FastAPI, Flutter, and cloud technologies.",
   summary: (
     <>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae fringilla nulla, 
-      in vehicula ligula. Morbi dignissim tempor justo, sit amet dictum purus feugiat in. 
-      Interdum et malesuada fames ac ante ipsum primis.
+      Passionate web and app developer specializing in FastAPI, Flutter, and cloud computing. 
+      Experienced in building scalable backend systems, NoSQL databases, and AI-powered applications.
+      Active community leader at Mechi Mavericks and intern at Darse Technology working on ship tracking projects.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://defang.io/",
+  avatarUrl: "https://avatars.githubusercontent.com/u/63558580?v=4", // Update with your actual avatar URL
+  personalWebsiteUrl: "https://bhandari-santosh.com.np/", // Update if you have a personal website
   contact: {
-    email: "lorem.ipsum@example.com",
-    tel: "+1234567890",
+    email: "info@bhandari-santosh.com.np", // Update with your actual email
+    tel: "+977XXXXXXXXX", // Update with your actual phone number
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/DefangLabs",
+        url: "https://github.com/santoshvandari",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/company/defanglabs/",
+        url: "https://www.linkedin.com/in/santoshvandari/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://twitter.com/DefangLabs",
+        url: "https://twitter.com/santoshvandari",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Faucibus Orci Luctus",
-      degree: "Bachelor's Degree in Vestibulum Ante",
-      start: "2007",
-      end: "2010",
+      school: "Tribhuvan University - Mechi Multiple Campus",
+      degree: "Bachelor's Degree in Computer Applications (BCA)",
+      start: "2021",
+      end: "2025",
     },
   ],
   work: [
     {
-      company: "Company",
-      link: "about:blank",
-      badges: ["Remote", "React", "TypeScript", "Node.js"],
-      title: "Job Position",
+      company: "Darse Technology",
+      link: "https://darse.com/",
+      badges: ["Intern", "FastAPI", "MongoDB", "Ship Tracking"],
+      title: "Software Developer Intern",
+      logo: Logo,
+      start: "2025",
+      end: null,
+      description: (
+        <>
+          Developing a ship tracking system using FastAPI and MongoDB. 
+          <ul className="list-inside list-disc">
+            <li>Building scalable APIs for ship tracking and monitoring.</li>
+            <li>Optimizing NoSQL queries for real-time data processing.</li>
+            <li>Integrating cloud-based services for enhanced performance.</li>
+          </ul>
+        </>
+      ),
+    },
+    {
+      company: "Mechi Mavericks",
+      link: "https://github.com/MechiMavericks",
+      badges: ["Community Leader", "Tech Events", "Open Source"],
+      title: "Community Lead",
       logo: Logo,
       start: "2024",
       end: null,
       description: (
         <>
-          Sed eget felis lacus. Maecenas placerat diam a tincidunt viverra. 
+          Leading Mechi Mavericks, a tech community for students at Mechi Multiple Campus.
           <ul className="list-inside list-disc">
-            <li>
-              Praesent hendrerit justo et nisl dapibus, porttitor placerat nisi efficitur.
-            </li>
-            <li>
-              Donec viverra urna in porta dignissim, nunc suscipit aliquet elementum, 
-              etiam vestibulum. 
-            </li>
-            <li>
-              Curabitur venenatis magna lacinia, vulputate nisl ac, fermentum turpis. 
-            </li>
+            <li>Organizing coding competitions like CodeWar 1.0.</li>
+            <li>Hosting workshops and mentorship programs.</li>
+            <li>Managing open-source contributions and projects.</li>
           </ul>
         </>
       ),
     },
-    {
-      company: "Company",
-      link: "about:blank",
-      badges: [
-        "Remote",
-        "React",
-        "TypeScript",
-        "Node.js",
-      ],
-      title: "Job Position",
-      logo: Logo,
-      start: "2021",
-      end: "2024",
-      description: (
-        <>
-          Quisque vitae elementum orci. In hac habitasse platea dictumst.
-          <ul className="list-inside list-disc">
-            <li>
-            Duis ornare ligula nec tincidunt mattis, crabitur lectus neque.
-            </li>
-            <li>
-            Donec porttitor nec magna quis facilisis mauris, rutrum a diam vitae rhoncus 
-            donec luctus.
-            </li>
-            <li>
-            Phasellus nibh felis, scelerisque aliquet cursus a, blandit id sem, 
-            nam aliquet dolor.
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Company",
-      link: "about:blank",
-      badges: ["Remote", "React", "TypeScript", "Node.js"],
-      title: "Job Position",
-      logo: Logo,
-      start: "2015",
-      end: "2021",
-      description: (
-        <>
-          Sed aliquet hendrerit odio, in elementum ante convallis quis.
-          <ul className="list-inside list-disc">
-            <li>
-            Donec blandit nibh at felis vehicula vehicula, nunc semper porttitor malesuada.
-            </li>
-            <li>
-            Etiam rutrum dolor vel elit cursus elementum. 
-            </li>
-            <li>
-            Curabitur urna sem, faucibus auctor dignissim a, eleifend at mauris.
-            </li>
-          </ul>
-        </>
-      ),
-    }
   ],
   skills: [
-    "React",
-    "TypeScript",
-    "Tailwind CSS",
+    "FastAPI",
+    "Flutter",
+    "MongoDB",
     "Node.js",
-    "GraphQL",
-    "Relay",
-    "System Architecture",
-    "Remote Team Leadership",
+    "React",
+    "Cloud Computing",
+    "NoSQL Databases",
+    "AI-powered Development",
   ],
   projects: [
     {
-      title: "Project 1",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
+      title: "AI-powered Code Judging System",
+      techStack: ["FastAPI", "MongoDB", "Python"],
       description:
-        "Nam aliquet dolor a risus pharetra placerat, praesent congue nulla dolor.",
+        "An AI-based system for automated code evaluation, used in coding competitions.",
       logo: Logo,
       link: {
-        label: "blank",
-        href: "about:blank",
+        label: "GitHub",
+        href: "https://github.com/MechiMavericks/AI-Code-Judge",
       },
     },
     {
-      title: "Project 2",
-      techStack: [
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-      ],
+      title: "Image to Text Converter App",
+      techStack: ["Flutter", "FastAPI", "Gemini API"],
       description:
-        "Pellentesque habitant morbi tristique senectus.",
+        "A mobile app that extracts text from images using AI-powered OCR.",
       logo: Logo,
       link: {
-        label: "blank",
-        href: "about:blank",
+        label: "GitHub",
+        href: "https://github.com/santoshbhandari/ImageToTextApp",
       },
     },
     {
-      title: "Project 3",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
+      title: "Mechi Mavericks Website",
+      techStack: ["AI Model", "Frontend Development"],
       description:
-        "Curabitur lectus neque, tempor at tortor non, viverra tempor tellus.",
+        "A website developed using AI technology to showcase Mechi Mavericks projects and events.",
       logo: Logo,
       link: {
-        label: "blank",
-        href: "about:blank",
+        label: "GitHub",
+        href: "https://github.com/MechiMavericks/Website",
       },
     },
   ],
