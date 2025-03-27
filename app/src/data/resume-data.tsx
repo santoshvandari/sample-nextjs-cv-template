@@ -59,9 +59,9 @@ export const RESUME_DATA = {
       end: null,
       description: (
         <>
-          Developing a ship tracking system using FastAPI and MongoDB. 
+          Work on the Real World Project using FastAPI and MongoDB. 
           <ul className="list-inside list-disc">
-            <li>Building scalable APIs for ship tracking and monitoring.</li>
+            <li>Building scalable APIs for Project and monitoring.</li>
             <li>Optimizing NoSQL queries for real-time data processing.</li>
             <li>Integrating cloud-based services for enhanced performance.</li>
           </ul>
